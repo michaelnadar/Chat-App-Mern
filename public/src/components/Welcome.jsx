@@ -11,7 +11,7 @@ export default function Welcome() {
             ).username
           );
     }
-    fetchData();
+     userName&& fetchData();
   }, []);
  
   return (
